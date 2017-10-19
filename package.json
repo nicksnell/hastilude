@@ -1,0 +1,16 @@
+{
+  "name": "hastilude",
+  "version": "0.0.1",
+  "description": "Token generator",
+  "bin": {
+    "hastilude": "bin/hastilude.js"
+  },
+  "author": "Nick Snell <n@nicksnell.net>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^2.2.0",
+    "commander": "^2.11.0",
+    "jsonwebtoken": "^8.1.0"
+  }
+}

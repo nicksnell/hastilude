@@ -1,15 +1,26 @@
 # Hastilude
 
-Command Line Tool for playing around with JWT tokens.
+>Command Line Tool for playing around with JWT tokens.
 
-#### Installing
+## Installing
 
 `yarn global add hastilude`
 
-#### Usage
+## Usage
 
 *Generate*
 
-`hastilude -s mysecret -p mypayload.json`
+`hastilude generate -s mysecret -p mypayload.json`
 
 A token will be displayed to the console.
+
+*Dismantle*
+
+`hastilude dismantle -t <token>`
+
+Token contents will be displayed to the console.
+
+#### Changelog
+
+0.0.2 - Added `dismantle`
+0.0.1 - First version; Added `generate`

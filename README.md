@@ -22,5 +22,5 @@ Token contents will be displayed to the console.
 
 #### Changelog
 
-0.0.2 - Added `dismantle`
-0.0.1 - First version; Added `generate`
+- 0.0.2 - Added `dismantle`
+- 0.0.1 - First version; Added `generate`
